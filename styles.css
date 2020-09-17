@@ -70,37 +70,15 @@ img.cir {
     border: 8px solid #CFB88F;
 }
 
+.borderRed{
+    
+    border: 8px solid #AD3D2B;
+}
+
 img.smed{
     width: 350px;
     height: 350px;
 }
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #AD3D2B;
-  }
-  
-  .cont:hover .overlay {
-    opacity: 0.8;
-  }
-  
-  .text {
-    color: #FAFAEB;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
 
 /*Forms*/
 input[type=text] {
@@ -108,23 +86,25 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 3px solid #ccc;
+    border: 3px solid #CFB88F;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     
   }
   
   input[type=text]:focus {
-    border: 3px solid #E3B668;
+    border: 3px solid #AD3D2B !important;
+    outline: 0 !important;
   }
 
-  .button1 {
-    background-color: #FAFAEB; 
+
+  #bt {
+    background-color: white; 
     color: black; 
     border: 2px solid #E3B668;
   }
   
-  .button1:hover {
+  #bt:hover {
     background-color: #E3B668;
-    color: #FAFAEB;
+    color: white;
   }
