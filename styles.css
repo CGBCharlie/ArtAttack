@@ -1,7 +1,5 @@
 body {
     padding-top: 60px;
-    align-items: center;
-    justify-content: center;
 }
 
 main {
@@ -12,4 +10,50 @@ main {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+img.med {
+    width: 500px;
+    height: 500px;
+}
+
+img.sml {
+    width: 100px;
+    height: 100px;
+}
+
+img.cir {
+    border-radius: 50%;
+}
+
+.cent {
+    text-align: center;
+}
+
+.just {
+    text-align: justify;
+}
+
+.pdT20 {
+    padding-top: 20px;
+}
+
+.wh {
+    color: #FAFAEB;
+}
+
+.bg {
+    color: #CFB88F;
+}
+
+.rd {
+    color: #AD3D2B;
+}
+
+.yw {
+    color: #E3B668;
+}
+
+.db {
+    color: #111523;
 }
