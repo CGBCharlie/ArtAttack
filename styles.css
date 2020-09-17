@@ -13,6 +13,13 @@ main {
     margin-right:auto
 }
 
+.pdTB20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
 img.med {
     width: 500px;
     height: 500px;
@@ -65,7 +72,7 @@ img.cir {
 
 /*img*/
 
-.imgBorder{
+.borderBg{
     
     border: 8px solid #CFB88F;
 }
@@ -73,6 +80,16 @@ img.cir {
 .borderRed{
     
     border: 8px solid #AD3D2B;
+}
+
+.borderYw{
+    
+    border: 8px solid #E3B668;
+}
+
+.borderBl{
+    
+    border: 8px solid #111523;
 }
 
 img.smed{
@@ -86,12 +103,12 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 3px solid #CFB88F;
+    border: 3px solid #E3B668;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     
   }
-  
+
   input[type=text]:focus {
     border: 3px solid #AD3D2B !important;
     outline: 0 !important;
@@ -101,7 +118,7 @@ input[type=text] {
   #bt {
     background-color: white; 
     color: black; 
-    border: 2px solid #E3B668;
+    border: 3px solid #E3B668;
   }
   
   #bt:hover {
