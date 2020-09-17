@@ -78,10 +78,7 @@ img.med {
     max-width: 400px;
 }
 
-img.med {
-    width: 400px;
-    height: 400px;
-}
+
 
 img.sml {
     width: 100px;
@@ -158,21 +155,23 @@ input[type=text] {
     border: 3px solid #E3B668;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    background-color: #fafafa;
     
   }
 
   input[type=text]:focus {
     border: 3px solid #AD3D2B !important;
+    background-color: #fafafa;
     outline: 0 !important;
 }
 
   #bt {
-    background-color: white; 
+    background-color: #fafafa; 
     color: black; 
     border: 3px solid #E3B668;
   }
   
   #bt:hover {
     background-color: #E3B668;
-    color: white;
+    color: #fafafa;
 }
