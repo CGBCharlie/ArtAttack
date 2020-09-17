@@ -6,6 +6,12 @@ main {
     padding: 20px;
 }
 
+.pd30Cent{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 img.med {
     width: 500px;
     height: 500px;
