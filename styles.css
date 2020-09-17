@@ -6,24 +6,20 @@ main {
     padding: 20px;
 }
 
-.pd30Cent{
+.pd30Cent {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-img.med {
-    width: 500px;
-    height: 500px;
+.pdT10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-img.sml {
-    width: 100px;
-    height: 100px;
-}
-
-img.cir {
-    border-radius: 50%;
+.pdT50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .cent {
@@ -34,8 +30,22 @@ img.cir {
     text-align: justify;
 }
 
-.pdT20 {
-    padding-top: 20px;
+.mW6 {
+    max-width: 400px;
+}
+
+img.med {
+    width: 400px;
+    height: 400px;
+}
+
+img.sml {
+    width: 100px;
+    height: 100px;
+}
+
+img.cir {
+    border-radius: 50%;
 }
 
 .wh {
