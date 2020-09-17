@@ -1,9 +1,29 @@
 body {
     padding-top: 60px;
-    align-items: center;
-    justify-content: center;
 }
 
 main {
     padding: 20px;
+}
+
+img.med {
+    width: 500px;
+    height: 500px;
+}
+
+img.sml {
+    width: 100px;
+    height: 100px;
+}
+
+img.cir {
+    border-radius: 50%;
+}
+
+.cent {
+    text-align: center;
+}
+
+.just {
+    text-align: justify;
 }
