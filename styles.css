@@ -18,7 +18,6 @@ main {
     color: #fafafa !important;
 }
 
-
 /* change the link color */
 
 .navbar-custom .navbar-nav .nav-link {
@@ -48,8 +47,6 @@ main {
     padding-bottom: 20px;
 }
 
-
-
 img.med {
     width: 500px;
     height: 500px;
@@ -66,6 +63,14 @@ img.med {
     padding-bottom: 50px;
 }
 
+.mt75 {
+    margin-top: 140px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
 .cent {
     text-align: center;
 }
@@ -78,8 +83,6 @@ img.med {
     max-width: 400px;
 }
 
-
-
 img.sml {
     width: 100px;
     height: 100px;
@@ -87,6 +90,11 @@ img.sml {
 
 img.cir {
     border-radius: 50%;
+}
+
+img.huge {
+    width: 1100px;
+    height: 550px;
 }
 
 .wh {
@@ -113,11 +121,9 @@ img.cir {
     background-color: white;
 }
 
-
 /*img*/
 
-.borderBg{
-    
+.borderBg {
     border: 8px solid #CFB88F;
 }
 
@@ -174,4 +180,15 @@ input[type=text] {
   #bt:hover {
     background-color: #E3B668;
     color: #fafafa;
+}
+  
+#sticky-footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.newsletter {
+    width: 80%;
 }
