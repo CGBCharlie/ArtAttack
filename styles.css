@@ -205,6 +205,24 @@ img.Hpq:hover {
     transform:scale(1.2);
 }
 
+img.Hspq {
+    transition:transform 0.25s ease;
+}
+
+img.Hspq:hover {
+    -webkit-transform:scale(1.1); 
+    transform:scale(1.1);
+}
+
+img.Hmas {
+    transition:transform 0.25s ease;
+}
+
+img.Hmas:hover {
+    -webkit-transform:scale(1.5); 
+    transform:scale(1.5);
+}
+
 
 /*Forms*/
 
