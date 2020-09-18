@@ -143,6 +143,10 @@ img.huge {
     border: 8px solid #AD3D2B;
 }
 
+.borderRed4 {
+    border: 4px solid #AD3D2B;
+}
+
 .borderYw {
     border: 8px solid #E3B668;
 }
