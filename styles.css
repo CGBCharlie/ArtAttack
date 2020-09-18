@@ -37,10 +37,10 @@ main {
 }
 
 .pd30Cent {
+    
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-right:auto
 }
 
 .pdTB20 {
@@ -82,11 +82,6 @@ img.med {
 
 
 
-img.sml {
-    width: 100px;
-    height: 100px;
-}
-
 img.cir {
     border-radius: 50%;
 }
@@ -111,8 +106,14 @@ img.cir {
     color: #111523;
 }
 
+/*background*/
+
 .bckg {
     background-color: white;
+}
+
+.bcYw{
+    background-color: #E3B668;
 }
 
 
@@ -141,10 +142,25 @@ img.cir {
     border: 8px solid #111523;
 }
 
+.borderWh{
+    border: 8px solid #FAFAEB;
+}
+
 img.smed{
     width: 350px;
     height: 350px;
 }
+
+img.sml {
+    width: 100px;
+    height: 100px;
+}
+
+img.ssmed{
+    width: 200px;
+    height: 200px;
+}
+
 
 
 /*Forms*/
