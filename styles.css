@@ -37,7 +37,6 @@ main {
 }
 
 .pd30Cent {
-    
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -47,8 +46,6 @@ main {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-
 
 img.med {
     width: 500px;
@@ -66,11 +63,17 @@ img.med {
     padding-bottom: 50px;
 }
 
+.mt75 {
+    margin-top: 140px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
 .cent {
     text-align: center;
 }
-
-
 
 .just {
     text-align: justify;
@@ -80,10 +83,18 @@ img.med {
     max-width: 400px;
 }
 
-
+img.sml {
+    width: 100px;
+    height: 100px;
+}
 
 img.cir {
     border-radius: 50%;
+}
+
+img.huge {
+    width: 1100px;
+    height: 550px;
 }
 
 .wh {
@@ -106,21 +117,21 @@ img.cir {
     color: #111523;
 }
 
+
 /*background*/
 
 .bckg {
     background-color: white;
 }
 
-.bcYw{
+.bcYw {
     background-color: #E3B668;
 }
 
 
 /*img*/
 
-.borderBg{
-    
+.borderBg {
     border: 8px solid #CFB88F;
 }
 
@@ -132,21 +143,19 @@ img.cir {
     border: 8px solid #AD3D2B;
 }
 
-.borderYw{
-    
+.borderYw {
     border: 8px solid #E3B668;
 }
 
-.borderBl{
-    
+.borderBl {
     border: 8px solid #111523;
 }
 
-.borderWh{
+.borderWh {
     border: 8px solid #FAFAEB;
 }
 
-img.smed{
+img.smed {
     width: 350px;
     height: 350px;
 }
@@ -156,11 +165,10 @@ img.sml {
     height: 100px;
 }
 
-img.ssmed{
+img.ssmed {
     width: 200px;
     height: 200px;
 }
-
 
 
 /*Forms*/
@@ -174,22 +182,32 @@ input[type=text] {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     background-color: #fafafa;
-    
-  }
+}
 
-  input[type=text]:focus {
+input[type=text]:focus {
     border: 3px solid #AD3D2B !important;
     background-color: #fafafa;
     outline: 0 !important;
 }
 
-  #bt {
-    background-color: #fafafa; 
-    color: black; 
+#bt {
+    background-color: #fafafa;
+    color: black;
     border: 3px solid #E3B668;
-  }
-  
-  #bt:hover {
+}
+
+#bt:hover {
     background-color: #E3B668;
     color: #fafafa;
+}
+
+#sticky-footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.newsletter {
+    width: 80%;
 }
